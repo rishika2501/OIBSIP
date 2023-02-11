@@ -1,0 +1,73 @@
+:root{
+    --color-primary: #191d2b;
+    --color-secondary: #27AE60;
+    --color-grey-3: #6c7983;
+    --color-grey-4: #454e56;
+    --box-shadow-1: 0 3px 15px rgb(0, 0, 0, .3);
+}
+
+
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 13px 17px rgba(153, 153, 153, 153);
+    border-radius: 1.5rem;
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    
+}
+.buttons div{
+    /*border-right: 0.5px solid #454e56;
+    border-bottom: 0.5px solid #454e56;*/
+    box-shadow: var(--box-shadow-1);
+
+}
+
+.button{
+    background-color:rgb(245, 241, 242);
+    line-height: 95px;
+    border-radius: 15%;
+    cursor: pointer;
+    text-align: center;
+    margin: .5rem .5rem .5rem .5rem;
+    border-color:solid #6c7983;
+    font-family: 'Poppins', sans-serif;}
+
+#equal{
+    background-color: orangered;
+    color:white;
+}
+#equal:hover{
+    background-color: rgb(234, 173, 59);
+    color:black;
+    transition: .4s ease-in-out;
+}
+
+.button:hover{
+    background-color:rgb(234, 173, 59);
+    color: black;
+    transition: .4s ease-in-out;
+}
+.heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+#bksp{
+    background-color: #11e76a;
+}
+#clear{
+    background-color: blue;
+}
